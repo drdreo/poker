@@ -4,7 +4,8 @@
   "scripts": {
     "prebuild": "cd server && rimraf dist",
     "build": "cd server && nest build",
-    "heroku-postbuild": "cd server && npm ci"
+    "heroku-prebuild": "echo This runs before Heroku installs dependencies && cd server && rimraf dist",
+    "heroku-postbuild": "cd server && npm ci && nest build"
   },
   "dependencies": {
   }
