@@ -1,10 +1,9 @@
 {
-  "name": "poker",
+  "name": "pokern-backend",
   "version": "0.0.1",
-  "description": "",
+  "description": "Pokern backend",
   "author": "DrDreo",
   "private": true,
-  "license": "UNLICENSED",
   "scripts": {
     "prebuild": "rimraf dist",
     "build": "nest build",
