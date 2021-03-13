@@ -1,6 +1,11 @@
 {
   "name": "poker-monorepo",
   "version": "1.0.0",
+  "scripts": {
+    "prebuild": "cd server && rimraf dist",
+    "build": "cd server && nest build",
+    "heroku-postbuild": "cd server && npm ci"
+  },
   "dependencies": {
   }
 }
