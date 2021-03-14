@@ -1,0 +1,6 @@
+[submodule "server"]
+	path = server
+	url = https://github.com/drdreo/poker-backend.git
+[submodule "client"]
+	path = client
+	url = https://github.com/drdreo/poker-client.git
