@@ -12,6 +12,13 @@ Live app at netlify: https://pokern.netlify.app
 
 # Poker
 
+## Submodules
+The [client](https://github.com/drdreo/poker-client) and [backend](https://github.com/drdreo/poker-backend) are included as submodules. To update them run: 
+
+```bash
+git submodule update --recursive
+```
+
 ## Running the client
 Run these commands inside the `client` folder
 ```bash
