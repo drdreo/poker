@@ -33,10 +33,6 @@ jobs:
       - npm run cy:verify
       - npm run ci:cy-run
 
-    - name: Backend tests
-      install: cd server && npm ci
-      script: npm run test:ci
-
 #    - stage: Deploy
 #      if: branch = master
 #      script: skip     # usually you do not want to rerun any tests
